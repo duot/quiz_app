@@ -1,5 +1,6 @@
 # TBD:
 #   Add the ability to parse alternative formatting for bold, etc.
+#   ~~~ is an alternative to ``` for code blocks.
 #   Find workaround for lists not formatting properly without an empty line in between non-list and list text.
 
 require 'redcarpet'
