@@ -1,0 +1,10 @@
+<dl>
+  <% @files.each do |file| %>
+    <dt>
+      <a href="/raw/<%= file %>">raw</a>
+    </dt>
+    <dd>
+      <a href="<%= file %>"><%= file %></a>
+    </dd>
+  <% end %>
+</dl>
